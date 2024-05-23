@@ -1,0 +1,10 @@
+overwrite: true
+schema: 'https://api.paraj.ir/graphql'
+documents: 'src/graphql/**/*.ts'
+generates:
+  src/graphql/generated/:
+    preset: 'client'
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-query'
