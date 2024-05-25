@@ -14,17 +14,19 @@
     "codegen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@tanstack/react-query": "^5.37.1",
     "@tanstack/react-query-devtools": "^5.37.1",
+    "babel-plugin-react-compiler": "^0.0.0-experimental-592953e-20240517",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "eslint-plugin-import": "^2.29.1",
     "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6",
-    "next": "14.2.3",
+    "next": "^15.0.0-rc.0",
     "next-themes": "^0.3.0",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^19.0.0-rc-935180c7e0-20240524",
+    "react-dom": "^19.0.0-rc-935180c7e0-20240524",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
