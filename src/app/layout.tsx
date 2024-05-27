@@ -12,7 +12,7 @@ const vazirmatn = Vazirmatn({
 });
 
 export const metadata: Metadata = {
-  title: '  ',
+  title: 'app',
   icons: {
     icon: '/favicon.ico',
   },
