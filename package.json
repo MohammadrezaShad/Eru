@@ -11,7 +11,9 @@
     "lint:fix": "next lint --fix",
     "lint:strict": "next lint",
     "prettier": "prettier --write */**/*.{js,jsx,json,ts,tsx,scss,css,md}",
-    "codegen": "graphql-codegen --config codegen.yml"
+    "codegen": "graphql-codegen --config codegen.yml",
+    "dr:build": "npx declarative-routing build",
+    "dr:build:watch": "npx declarative-routing build --watch"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.2",
@@ -58,6 +60,7 @@
     "lucide-react": "^0.379.0",
     "next": "^15.0.0-rc.0",
     "next-themes": "^0.3.0",
+    "query-string": "^9.0.0",
     "react": "^19.0.0-rc-935180c7e0-20240524",
     "react-day-picker": "^8.10.1",
     "react-dom": "^19.0.0-rc-935180c7e0-20240524",

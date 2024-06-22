@@ -4,20 +4,47 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* Primary colors */
+    --primary: 37, 71%, 61%; /* #E4AA47 */
+    --primary-foreground: 0, 0%, 15%;
+
+    --secondary: 216, 100%, 66%; /* #2E7AFF */
+    --secondary-foreground: 0, 0%, 100%;
+
+    --success: 164, 100%, 43%; /* #00AD7C */
+    --secondary-foreground: 0, 0%, 100%;
+
+    --danger: 330, 100%, 74%; /* #FF77A9 */
+    --secondary-foreground: 0, 0%, 100%;
+
+    --info: 209, 82%, 51%; /* #1A8CE7 */
+    --secondary-foreground: 0, 0%, 100%;
+
+    --warning: 45, 90%, 64%; /* #FACF5A */
+    --secondary-foreground: 0, 0%, 100%;
+
+    /* Background colors */
+    --background: 0, 0%, 11%; /* #1B1B1B */
     --foreground: 222.2 84% 4.9%;
+
+    --background-variant: 0, 0%, 14%; /* #242424 */
+    --variant-foreground: 0, 0%, 100%;
+
+    --background-variant-alt: 0, 0%, 18%; /* #2F2F2F */
+    --variant-foreground: 0, 0%, 100%;
+
+    /* Stroke and border colors */
+    --stroke: 0, 0%, 25%; /* #414141 */
+    --stroke-foreground: 0, 0%, 100%;
+
+    --stroke-variant: 0, 0%, 19%; /* #323232 */
+    --stroke-variant-foreground: 0, 0%, 61%;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;

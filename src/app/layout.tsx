@@ -27,9 +27,7 @@ export default function RootLayout({
     <html lang="fa" dir="rtl" suppressHydrationWarning>
       <body className={vazirmatn.className}>
         <Providers>
-          <main>
-            <div className="root">{children}</div>
-          </main>
+          <div className="root">{children}</div>
         </Providers>
       </body>
     </html>
