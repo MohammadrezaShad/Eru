@@ -6,9 +6,17 @@ const defaultInfo = {
   search: z.object({})
 };
 
+import * as AuthLoginRoute from "@/app/(auth)/login/page.info";
 import * as HomeRoute from "@/app/(main)/page.info";
 import * as MultimediaRoute from "@/app/(main)/[multimediaName]/page.info";
 
+export const AuthLogin = makeRoute(
+  "/(auth)/login",
+  {
+    ...defaultInfo,
+    ...AuthLoginRoute.Route
+  }
+);
 export const Home = makeRoute(
   "/(main)",
   {

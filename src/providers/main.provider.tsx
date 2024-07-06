@@ -10,7 +10,7 @@ type MainProvidersProps = {
 export default function MainProviders({ children }: MainProvidersProps) {
   return (
     <ThemeProvider>
-      <QueryClientProvider>{children}</QueryClientProvider>;
+      <QueryClientProvider>{children}</QueryClientProvider>
     </ThemeProvider>
   );
 }

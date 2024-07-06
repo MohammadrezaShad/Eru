@@ -5,46 +5,48 @@
 @layer base {
   :root {
     /* Primary colors */
-    --primary: 37, 71%, 61%; /* #E4AA47 */
-    --primary-foreground: 0, 0%, 15%;
+    --primary: 37 71% 61%; /* #E4AA47 */
+    --primary-foreground: 0 0% 15%;
 
-    --secondary: 216, 100%, 66%; /* #2E7AFF */
-    --secondary-foreground: 0, 0%, 100%;
+    --secondary: 216 100% 66%; /* #2E7AFF */
+    --secondary-foreground: 0 0% 100%;
 
-    --success: 164, 100%, 43%; /* #00AD7C */
-    --secondary-foreground: 0, 0%, 100%;
+    --success: 164 100% 43%; /* #00AD7C */
+    --secondary-foreground: 0 0% 100%;
 
-    --danger: 330, 100%, 74%; /* #FF77A9 */
-    --secondary-foreground: 0, 0%, 100%;
+    --danger: 330 100% 74%; /* #FF77A9 */
+    --secondary-foreground: 0 0% 100%;
 
-    --info: 209, 82%, 51%; /* #1A8CE7 */
-    --secondary-foreground: 0, 0%, 100%;
+    --info: 209 82% 51%; /* #1A8CE7 */
+    --secondary-foreground: 0 0% 100%;
 
-    --warning: 45, 90%, 64%; /* #FACF5A */
-    --secondary-foreground: 0, 0%, 100%;
+    --warning: 45 90% 64%; /* #FACF5A */
+    --secondary-foreground: 0 0% 100%;
 
     /* Background colors */
-    --background: 0, 0%, 11%; /* #1B1B1B */
-    --foreground: 222.2 84% 4.9%;
+    --background: 0 0% 11%; /* #1B1B1B */
+    --foreground: 0 0% 100%;
 
-    --background-variant: 0, 0%, 14%; /* #242424 */
-    --variant-foreground: 0, 0%, 100%;
+    --background-variant: 0 0% 14%; /* #242424 */
+    --foreground-variant: 0 0% 61%; /* #242424 */
 
-    --background-variant-alt: 0, 0%, 18%; /* #2F2F2F */
-    --variant-foreground: 0, 0%, 100%;
+    --background-variant-alt: 0 0% 18%; /* #2F2F2F */
+    --foreground-variant-alt: 38 74% 59%; /* #242424 */
+    --foreground-variant-extra: 0 0% 15%;
 
     /* Stroke and border colors */
-    --stroke: 0, 0%, 25%; /* #414141 */
-    --stroke-foreground: 0, 0%, 100%;
+    --stroke: 0 0% 25%; /* #414141 */
+    --stroke-foreground: 0 0% 100%;
 
-    --stroke-variant: 0, 0%, 19%; /* #323232 */
-    --stroke-variant-foreground: 0, 0%, 61%;
+    --stroke-variant: 0 0% 19%; /* #323232 */
+
+    --stroke-alt: 270 7% 95%; /* #323232 */
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 18%;
+    --popover-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -61,36 +63,6 @@
 
     --radius: 0.5rem;
   }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-  }
 }
 
 @layer base {
@@ -100,4 +72,7 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+.embla__container {
+  direction: rtl;
 }

@@ -1,4 +1,4 @@
-import { Footer, Header } from '@/components';
+import { AppBar, Footer, Header } from '@/components';
 
 export default function MainLayout({
   children,
@@ -9,7 +9,8 @@ export default function MainLayout({
     <>
       <Header />
       <main>{children}</main>
-      <Footer />
+      <Footer className="md:hidden" />
+      <AppBar className="hidden md:block" />
     </>
   );
 }
